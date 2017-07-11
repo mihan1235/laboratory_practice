@@ -12,19 +12,23 @@ using System.Collections;
 namespace laboratory__practice.Researchers
 {
     
-    public class Researcher: Person, IEnumerable
+	public class Researcher: Person, IEnumerable, IComparable<Researcher>,IComparer<Researcher>
     {
         bool IsAcademicDegree { get; set; }
         List<Paper> papers_list = new List<Paper>();
         List<Project> projects_list=new List<Project>();
         public Researcher(string name = "unknown_name", string surname = "unknown_surname",
-               int day_birth = 1, int month_birth = 1, int year_birth = 1, bool academic_degree=false,
-                DateTime birth_day=new DateTime())
+                int day_birth = 1, int month_birth = 1, int year_birth = 1, bool academic_degree=false)
                : base(name,surname,day_birth,month_birth,year_birth)
         {
             IsAcademicDegree = academic_degree;
-            Birthday = birth_day;
         }
+
+		public Researcher(string name, string surname,bool academic_degree,DateTime birth_day)
+        {
+			IsAcademicDegree = academic_degree;
+			Birthday = birth_day;
+		}
 
         public Researcher(Person person_data, bool academic_degree)
         {
@@ -177,6 +181,20 @@ namespace laboratory__practice.Researchers
 					yield return papers_list[i];
 				}
 			}
+		}
+
+		public int CompareTo(Researcher obj){
+			if (this.AverageTimeFrame < obj.AverageTimeFrame) {
+				return -1;
+			}
+			if (this.AverageTimeFrame > obj.AverageTimeFrame) {
+				return 1;
+			}
+			return 0;
+		}
+
+		public int Compare(Researcher obj1,Researcher obj2){
+			return obj1.CompareTo (obj2);
 		}
 	}
 

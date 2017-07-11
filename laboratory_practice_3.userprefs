@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="laboratory_practice_3/laboratory_practice_3.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="laboratory_practice_3/Researcher/ResearcherList.cs">
+    <Files>
+      <File FileName="laboratory_practice_3/Program.cs" Line="57" Column="4" />
+      <File FileName="laboratory_practice_3/Researcher/ResearcherList.cs" Line="178" Column="46" />
+      <File FileName="laboratory_practice_3/Project/Project.cs" Line="1" Column="1" />
+      <File FileName="laboratory_practice_3/Researcher/Researcher.cs" Line="188" Column="5" />
+      <File FileName="laboratory_practice_3/Person/Person.cs" Line="1" Column="1" />
+      <File FileName="laboratory_practice_3/Paper/Paper.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
