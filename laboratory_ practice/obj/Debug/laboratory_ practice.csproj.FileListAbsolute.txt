@@ -1,0 +1,5 @@
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_ practice\laboratory_ practice\bin\Debug\laboratory_ practice.exe.config
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_ practice\laboratory_ practice\bin\Debug\laboratory_ practice.exe
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_ practice\laboratory_ practice\bin\Debug\laboratory_ practice.pdb
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_ practice\laboratory_ practice\obj\Debug\laboratory_ practice.exe
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_ practice\laboratory_ practice\obj\Debug\laboratory_ practice.pdb
