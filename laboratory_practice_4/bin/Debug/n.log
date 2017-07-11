@@ -1,0 +1,28 @@
+Researcher event
+Event args: 
+laboratory_practice_4.ResearcherHandlerEventArgs with Key: name_1000000 surname_1000000
+ Time needed to find element: 0
+ Search method: by key
+ Search process is not successfull
+
+Researcher event
+Event args: 
+laboratory_practice_4.ResearcherHandlerEventArgs with Key: name_1 surname_1
+ Time needed to find element: 0
+ Search method: by key
+ Search process is successfull
+
+Researcher event
+Event args: 
+laboratory_practice_4.ResearcherHandlerEventArgs
+ Time needed to find element: 15
+ Search method: by value
+ Search process is not successfull
+
+Researcher event
+Event args: 
+laboratory_practice_4.ResearcherHandlerEventArgs
+ Time needed to find element: 0
+ Search method: by value
+ Search process is successfull
+

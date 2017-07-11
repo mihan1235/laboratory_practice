@@ -196,6 +196,14 @@ namespace laboratory__practice.Researchers
 		public int Compare(Researcher obj1,Researcher obj2){
 			return obj1.CompareTo (obj2);
 		}
+
+        public string Key
+        {
+            get
+            {
+                return Name+' '+Surname;
+            }
+        }
 	}
 
     public class IteratorResearcher:IEnumerator

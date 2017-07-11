@@ -1,5 +1,0 @@
-/home/mihan/C Sharp/MonoDevelop/laboratory_practice_3/laboratory_practice_3/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/mihan/C Sharp/MonoDevelop/laboratory_practice_3/laboratory_practice_3/bin/Debug/laboratory_practice_3.exe.mdb
-/home/mihan/C Sharp/MonoDevelop/laboratory_practice_3/laboratory_practice_3/bin/Debug/laboratory_practice_3.exe
-/home/mihan/C Sharp/MonoDevelop/laboratory_practice_3/laboratory_practice_3/obj/x86/Debug/laboratory_practice_3.exe
-/home/mihan/C Sharp/MonoDevelop/laboratory_practice_3/laboratory_practice_3/obj/x86/Debug/laboratory_practice_3.exe.mdb

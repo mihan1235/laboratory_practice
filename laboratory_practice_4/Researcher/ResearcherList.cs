@@ -7,13 +7,15 @@ using laboratory__practice.Researchers;
 using laboratory__practice.Papers;
 using laboratory__practice_2.Project;
 using System.Linq;
+using laboratory_practice_4;
+using static laboratory_practice_4.Rand;
 
 namespace laboratory_practice_3
 {
+  
 	public class ResearcherList
 	{
-		Random rnd = new Random();
-		List<Researcher> researchers_list=new List<Researcher>();
+        List<Researcher> researchers_list=new List<Researcher>();
 
 		public override string ToString(){
 			string output = "List of researchers: \n";
@@ -23,58 +25,6 @@ namespace laboratory_practice_3
 				i++;
 			}
 			return output;
-		}
-
-		char generate_rnd_char(){
-			return (char) rnd.Next(0x0061, 0x007A);
-		}
-
-		string generate_rnd_string(int length=6){
-			string name="";
-			for (int i=0; i<length; i++){
-				name = name + generate_rnd_char ();
-			}
-			return name;
-		}
-
-		bool generate_rnd_bool(){
-			int res = rnd.Next (0, 2);
-			if (res == 1) {
-				return true;
-			}
-			return false;
-		}
-
-		TimeFrame generate_rnd_TimeFrame(){
-			return (TimeFrame)rnd.Next (0, 3);
-		}
-
-		void generate_date(ref int day, ref int month, ref int year){
-			day = rnd.Next (1, 20);//To avoid a mistake with dates in february
-			month = rnd.Next (1, 12);
-			year = rnd.Next (1545, 2010);
-		}
-
-		Paper[] generate_papers(int size){
-			int day=0;
-			int month=0;
-			int year=0;
-			Paper[] paper_list = new Paper[size];
-			for(int j=0; j<size;j++){
-				generate_date (ref day, ref month, ref year);
-				paper_list[j]=new Paper(generate_rnd_string()+' '+
-					generate_rnd_string(),rnd.Next (1, 12),new DateTime(year,month,day));
-			}
-			return paper_list;
-		}
-
-		Project[] generate_projects(int size){
-			Project[] project_list=new Project[size];
-			for (int m = 0; m < size; m++) {
-				project_list[m]=new Project(generate_rnd_string()+' '+
-					generate_rnd_string(),rnd.Next(1,58),generate_rnd_TimeFrame());
-			}
-			return project_list;
 		}
 
         void random_generate()
@@ -96,59 +46,20 @@ namespace laboratory_practice_3
                 for (int j = 0; j < arr_size - 1; j++)
                 {
                     generate_date(ref day, ref month, ref year);
-                    tmp_obj.AddPapers(new Paper(generate_rnd_string(), rnd.Next(1, 12),
+                    tmp_obj.AddPapers(new Paper(generate_rnd_string(), generate_rnd_int(1, 12),
                         new DateTime(year, month, day)));
-                    tmp_obj.AddProjects(new Project(generate_rnd_string(), rnd.Next(1, 58),
+                    tmp_obj.AddProjects(new Project(generate_rnd_string(), generate_rnd_int(1, 58),
                         generate_rnd_TimeFrame()));
                 }
-                tmp_obj.AddPapers(paper_arr[rnd.Next(0, arr_size - 1)]);
-                tmp = rnd.Next(0, arr_size - 1);
+                tmp_obj.AddPapers(paper_arr[generate_rnd_int(0, arr_size - 1)]);
+                tmp = generate_rnd_int(0, arr_size - 1);
                 project_arr[tmp].TimeFrame = generate_rnd_TimeFrame();
                 tmp_obj.AddProjects(project_arr[tmp]);
                 researchers_list.Add(tmp_obj);
             }
         }
-		public void AddDefaults () {
-            //int day = 0;
-            //int month = 0;
-            //int year = 0;
-            //generate_date(ref day, ref month, ref year);
-            //bool academic_degree = generate_rnd_bool();
-            //Researcher tmp_obj = new Researcher(generate_rnd_string(), generate_rnd_string(),
-            //                            day, month, year, academic_degree);
-            //generate_date(ref day, ref month, ref year);
-            //tmp_obj.AddPapers(new Paper("My home", rnd.Next(1, 12),
-            //            new DateTime(year, month, day)));
-            //generate_date(ref day, ref month, ref year);
-            //tmp_obj.AddPapers(new Paper("how to work", rnd.Next(1, 12),
-            //            new DateTime(year, month, day)));
-            //generate_date(ref day, ref month, ref year);
-            //tmp_obj.AddProjects(new Project("smth new", rnd.Next(1, 58),
-            //            generate_rnd_TimeFrame()));
-            //tmp_obj.AddProjects(new Project("1", rnd.Next(1, 58),
-            //            generate_rnd_TimeFrame()));
-            //tmp_obj.AddProjects(new Project("1", rnd.Next(1, 58),
-            //            generate_rnd_TimeFrame()));
-            //tmp_obj.AddProjects(new Project("smth news", 12,
-            //            TimeFrame.Long));
-            //researchers_list.Add(tmp_obj);
 
-            //generate_date(ref day, ref month, ref year);
-            //academic_degree = generate_rnd_bool();
-            //tmp_obj = new Researcher(generate_rnd_string(), generate_rnd_string(),
-            //                            day, month, year, academic_degree);
-            //generate_date(ref day, ref month, ref year);
-            //tmp_obj.AddPapers(new Paper("My homes", rnd.Next(1, 12),
-            //            new DateTime(year, month, day)));
-            //generate_date(ref day, ref month, ref year);
-            //tmp_obj.AddPapers(new Paper("how to come around", rnd.Next(1, 12),
-            //            new DateTime(year, month, day)));
-            //generate_date(ref day, ref month, ref year);
-            //tmp_obj.AddProjects(new Project("what is new", rnd.Next(1, 58),
-            //            generate_rnd_TimeFrame()));
-            //tmp_obj.AddProjects(new Project("smth news", 12,
-            //            TimeFrame.TwoYears));
-            //researchers_list.Add(tmp_obj);
+		public void AddDefaults () {
             Researcher r1 = new Researcher("1_res ", "1");
             r1.AddPapers(new Paper("a", 2));
             r1.AddProjects(new Project("p1", 3, TimeFrame.Long));
