@@ -1,0 +1,5 @@
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\ClassLibrary\bin\Debug\ClassLibrary.dll
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\ClassLibrary\bin\Debug\ClassLibrary.pdb
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\ClassLibrary\obj\Debug\ClassLibrary.dll
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\ClassLibrary\obj\Debug\ClassLibrary.pdb
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\ClassLibrary\obj\Debug\ClassesLibrary.csprojResolveAssemblyReference.cache

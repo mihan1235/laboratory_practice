@@ -1,0 +1,8 @@
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\SerializeReseacherList\bin\Debug\SerializeReseacherList.exe.config
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\SerializeReseacherList\bin\Debug\SerializeReseacherList.exe
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\SerializeReseacherList\bin\Debug\SerializeReseacherList.pdb
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\SerializeReseacherList\bin\Debug\ClassLibrary.dll
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\SerializeReseacherList\bin\Debug\ClassLibrary.pdb
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\SerializeReseacherList\obj\Debug\SerializeReseacherList.csprojResolveAssemblyReference.cache
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\SerializeReseacherList\obj\Debug\SerializeReseacherList.exe
+c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_5\SerializeReseacherList\obj\Debug\SerializeReseacherList.pdb

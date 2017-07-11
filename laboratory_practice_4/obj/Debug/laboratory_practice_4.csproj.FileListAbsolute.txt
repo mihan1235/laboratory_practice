@@ -1,6 +1,0 @@
-c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_4\laboratory_practice_4\bin\Debug\laboratory_practice_4.exe.config
-c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_4\laboratory_practice_4\bin\Debug\laboratory_practice_4.exe
-c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_4\laboratory_practice_4\bin\Debug\laboratory_practice_4.pdb
-c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_4\laboratory_practice_4\obj\Debug\laboratory_practice_4.csprojResolveAssemblyReference.cache
-c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_4\laboratory_practice_4\obj\Debug\laboratory_practice_4.exe
-c:\users\mihan\documents\visual studio 2015\Projects\laboratory_practice_4\laboratory_practice_4\obj\Debug\laboratory_practice_4.pdb
