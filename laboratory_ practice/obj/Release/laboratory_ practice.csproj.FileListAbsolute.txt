@@ -1,5 +1,0 @@
-c:\users\mihan\documents\visual studio 2015\Projects\laboratory_ practice\laboratory_ practice\bin\Release\laboratory_ practice.exe.config
-c:\users\mihan\documents\visual studio 2015\Projects\laboratory_ practice\laboratory_ practice\bin\Release\laboratory_ practice.exe
-c:\users\mihan\documents\visual studio 2015\Projects\laboratory_ practice\laboratory_ practice\bin\Release\laboratory_ practice.pdb
-c:\users\mihan\documents\visual studio 2015\Projects\laboratory_ practice\laboratory_ practice\obj\Release\laboratory_ practice.exe
-c:\users\mihan\documents\visual studio 2015\Projects\laboratory_ practice\laboratory_ practice\obj\Release\laboratory_ practice.pdb

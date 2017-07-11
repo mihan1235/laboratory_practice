@@ -1,0 +1,6 @@
+/home/mihan/C#/MonoDevelop/laboratory_ practice_2/laboratory_ practice_2/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/home/mihan/C#/MonoDevelop/laboratory_ practice_2/laboratory_ practice_2/bin/Debug/laboratory_ practice_2.exe.config
+/home/mihan/C#/MonoDevelop/laboratory_ practice_2/laboratory_ practice_2/bin/Debug/laboratory_ practice_2.exe.mdb
+/home/mihan/C#/MonoDevelop/laboratory_ practice_2/laboratory_ practice_2/bin/Debug/laboratory_ practice_2.exe
+/home/mihan/C#/MonoDevelop/laboratory_ practice_2/laboratory_ practice_2/obj/Debug/laboratory_ practice_2.exe
+/home/mihan/C#/MonoDevelop/laboratory_ practice_2/laboratory_ practice_2/obj/Debug/laboratory_ practice_2.exe.mdb
